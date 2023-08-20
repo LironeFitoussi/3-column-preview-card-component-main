@@ -17,6 +17,10 @@ main {
     height: 60%;
 }
 
+.sedans, .suvs, .luxury {
+    padding: 5%;
+}
+
 .sedans {
     background-color: hsl(31, 77%, 52%);
 }

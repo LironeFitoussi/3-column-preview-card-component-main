@@ -19,6 +19,8 @@ main {
 
 .sedans, .suvs, .luxury {
     padding: 5% 6%;
+    display: flex;
+    flex-direction: column;
 }
 
 .sedans {
@@ -45,6 +47,12 @@ h1.car-header {
 p.car-paragraph {
     color: hsla(0, 0%, 100%, 0.75);
     line-height: 3vh;
+}
+
+.learn-more-btn {
+    border: none;
+    font-family: inherit;
+    align-self: flex-end;
 }
 
 #COLORS {

@@ -18,7 +18,7 @@ main {
 }
 
 .sedans, .suvs, .luxury {
-    padding: 5%;
+    padding: 5% 6%;
 }
 
 .sedans {
@@ -40,6 +40,11 @@ h1.car-header {
     text-transform: uppercase;
     color: hsl(0, 0%, 95%);
     font-size: 2.75vw;
+}
+
+p.car-paragraph {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 3vh;
 }
 
 #COLORS {

@@ -71,6 +71,15 @@ p.car-paragraph {
     border-radius: 2rem;
     justify-self: flex-end;
     font-size: 1.15vw;
+    transition: all 0.3s;
+}
+
+/* Hover State */
+.learn-more-btn:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: transparent;
+    border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
 }
 
 #COLORS {

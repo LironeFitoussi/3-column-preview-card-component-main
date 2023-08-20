@@ -66,7 +66,7 @@ p.car-paragraph {
 .learn-more-btn {
     border: none;
     font-family: inherit;
-    width: 70%;
+    width: 65%;
     padding: 7.5%;
     border-radius: 2rem;
     justify-self: flex-end;
@@ -112,8 +112,52 @@ p.car-paragraph {
 }
 
 @media screen and (max-width: 375px) {
+    
+    body {
+        height: 120vh;
+    }
+
     main {
-        /* flex-direction: column; */
-        height: 40vh;
+        flex-direction: column;
+        height: 90%;
+    }
+
+    .sedans, .suvs, .luxury { 
+        height: 100%;
+        padding: 15%;
+    }
+
+    .sedans {
+        border-radius: .5rem .5rem 0 0 ;
+    }
+
+    .luxury {
+        border-radius: 0 0 .5rem .5rem ;
+    }
+
+    img {
+        height: 70%;
+    }
+
+    h1.car-header {
+        font-size: 7vw;
+        margin: 1vh 0;
+    }
+
+    p.car-paragraph {
+        height: fit-content;
+        font-size: 2.9vw;
+        line-height: 2vh;
+        margin: 1vh 0;
+
+    }
+
+    .learn-more-btn {
+        font-size: 3vw;
+    }
+
+    footer {
+        position: relative;
+        top: 5vh;
     }
 }

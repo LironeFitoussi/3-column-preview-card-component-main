@@ -8,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: hsla(0, 0%, 100%, 0.75);
 }
 
 main {
@@ -80,6 +81,11 @@ p.car-paragraph {
     background-color: transparent;
     border: 2px solid hsl(0, 0%, 95%);
     cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    bottom: 5vh;
 }
 
 #COLORS {
